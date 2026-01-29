@@ -46,7 +46,7 @@ const projects: Project[] = [
     image: "/deenApp/1.png",
     technologies: ["React Native", "Firebase", "Redux", "React Navigation"],
     platform: "Cross-platform",
-    playStoreUrl: "#",
+    playStoreUrl: "https://play.google.com/store/apps/details?id=com.deen&hl=en&pli=1",
     appStoreUrl: "#",
     gallery: [
       "/deenApp/1.png",
@@ -61,9 +61,10 @@ const projects: Project[] = [
     title: "E-Invoice",
     description:
       "Designed and developed UI screens for an electronic invoicing application at 360Xpert Solutions, ensuring a seamless user experience aligned with modern design standards.",
-    image: "/projects/e-invoice.jpg",
+    image: "/eInvoice/1.png",
     technologies: ["React Native", "Redux Toolkit", "REST APIs"],
     platform: "Cross-platform",
+    gallery: ["/eInvoice/1.png"],
   },
   {
     title: "Business Directory App",
@@ -97,11 +98,17 @@ const projects: Project[] = [
     title: "Travel App",
     description:
       "Designed a responsive travel web app with a clean, mobile-first user interface. Added destination search, trip planning, and booking features with performance optimization.",
-    image: "/projects/travel-app.jpg",
+    image: "/travelApp/1.png",
     technologies: ["React.js", "Responsive Design", "REST APIs"],
     platform: "Web",
     isWeb: true,
     githubUrl: "#",
+    gallery: [
+      "/travelApp/1.png",
+      "/travelApp/2.png",
+      "/travelApp/3.png",
+      "/travelApp/4.png",
+    ],
   },
   {
     title: "YouTube Clone",

@@ -43,19 +43,19 @@ export function About() {
         viewport={{ once: true }}
       >
         <motion.p variants={itemVariants}>
-          I&apos;m a React Native Developer with hands-on experience in building
-          modern, responsive, and high-performance mobile applications. My focus
-          lies in creating clean and reusable UI components that deliver
-          exceptional user experiences.
+          I&apos;m a Frontend Developer specializing in React Native, with a strong focus on building scalable mobile applications and modern web interfaces.
         </motion.p>
         <motion.p variants={itemVariants}>
-          I specialize in managing state with{" "}
-          <span className="text-foreground font-medium">React Hooks</span> and{" "}
-          <span className="text-foreground font-medium">Redux</span>, integrating{" "}
+          I enjoy crafting pixel-perfect UI components, optimizing performance, and delivering seamless experiences across mobile and web platforms. My daily toolkit includes{" "}
+          <span className="text-foreground font-medium">React Native</span>,{" "}
+          <span className="text-foreground font-medium">React.js</span>,{" "}
+          <span className="text-foreground font-medium">Hooks</span>,{" "}
+          <span className="text-foreground font-medium">Redux</span>, and clean component-driven architecture.
+        </motion.p>
+        <motion.p variants={itemVariants}>
+          From integrating{" "}
           <span className="text-foreground font-medium">REST APIs</span> and{" "}
-          <span className="text-foreground font-medium">Firebase</span> services,
-          and developing cross-platform apps with a strong focus on performance,
-          usability, and scalability.
+          <span className="text-foreground font-medium">Firebase</span> to designing responsive layouts, I aim to build products that are fast, reliable, and user-centric—whether they live on a smartphone or in the browser.
         </motion.p>
         <motion.p variants={itemVariants}>
           Adaptable to agile environments and collaborative teams, I&apos;m

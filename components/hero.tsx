@@ -26,7 +26,14 @@ const itemVariants = {
   },
 }
 
-const titles = ["React Native Developer", "Mobile App Developer", "Cross Platform Developer"]
+const titles = [
+  "React Native Developer",
+  "Mobile App Developer",
+  "Cross Platform Developer",
+  "Frontend Engineer",
+  "Programmer",
+  "Problem Solver",
+]
 
 function TypewriterTitle() {
   const [displayText, setDisplayText] = useState("")

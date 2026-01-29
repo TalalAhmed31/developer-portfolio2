@@ -81,7 +81,7 @@ const projects: Project[] = [
   {
     title: "E-Invoice",
     description:
-      "Designed and developed UI screens for an electronic invoicing application at 360Xpert Solutions, ensuring a seamless user experience aligned with modern design standards.",
+      "During my internship, I worked on an E-Invoice mobile application, where I was involved in both the UI implementation and application logic. I developed the app screens from scratch, including the splash screen, login screen, and sign-up screen, and set up smooth navigation between screens. The application was designed to generate digital invoices, where user details, product or service information, and pricing are processed to create a structured invoice for record-keeping and business use. As part of my role, I focused on understanding and implementing the invoice generation flow, ensuring that once the required process was completed, the invoice was generated correctly within the app. I closely worked on the logic that controlled how and when the invoice is created, making sure the data flow and output were accurate. This project helped me gain practical experience in building real-world app features, handling navigation, and understanding how business-oriented applications function at a foundational level.",
     image: "/eInvoice/1.png",
     technologies: ["React Native", "Redux Toolkit", "REST APIs"],
     platform: "Cross-platform",
@@ -109,11 +109,12 @@ const projects: Project[] = [
     title: "Stock Management System",
     description:
       "I developed a Stock Management web application using React, designed for company-level usage to manage and monitor product inventory efficiently. The system handled stock entry, product availability tracking, and inventory updates through a centralized database. The application supported role-based access control, with separate Admin and User roles. Admin users could manage products, update stock quantities, and add new inventory, while users could search products and view remaining stock levels in real time. To improve efficiency, the system automated inventory handling workflows and incorporated AI-assisted logic to support stock monitoring and decision-making, reducing manual effort in tracking product availability. This project strengthened my understanding of React-based web applications, database-driven systems, role-based authentication, and inventory automation concepts.",
-    image: "/projects/stock-management.jpg",
+    image: "/stockManagement/1.png",
     technologies: ["React.js", "REST APIs", "State Management"],
     platform: "Web",
     isWeb: true,
     githubUrl: "#",
+    gallery: ["/stockManagement/1.png", "/stockManagement/2.png"],
   },
   {
     title: "Travel App",

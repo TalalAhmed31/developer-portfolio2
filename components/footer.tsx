@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { ArrowRight, Mail } from "lucide-react"
+import { ArrowRight, Mail, Linkedin } from "lucide-react"
 
 export function Footer() {
   return (
@@ -23,16 +23,30 @@ export function Footer() {
               Have a project in mind? I'd love to hear about it. Let's create something amazing together.
             </p>
           </div>
-          <motion.a
-            href="mailto:ashhad.as10@gmail.com"
-            className="inline-flex items-center gap-2 px-8 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-colors"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            <Mail className="w-5 h-5" />
-            Get In Touch
-            <ArrowRight className="w-5 h-5" />
-          </motion.a>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <motion.a
+              href="mailto:ashhad.as10@gmail.com"
+              className="inline-flex items-center gap-2 px-8 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-colors"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              <Mail className="w-5 h-5" />
+              Email Me
+              <ArrowRight className="w-5 h-5" />
+            </motion.a>
+            <motion.a
+              href="https://linkedin.com/in/ashhad-ahmed-siddiqi"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-8 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-colors"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              <Linkedin className="w-5 h-5" />
+              LinkedIn
+              <ArrowRight className="w-5 h-5" />
+            </motion.a>
+          </div>
         </motion.div>
 
         {/* Divider */}

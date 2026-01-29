@@ -43,11 +43,19 @@ const projects: Project[] = [
     title: "Deen App",
     description:
       "Contributed to UI fixes in a 1Million+ users Islamic app. Debugged and updated code with the latest React Native updates to improve performance and stability.",
-    image: "/projects/deen-app.jpg",
+    image: "/deenApp/1.png",
     technologies: ["React Native", "Firebase", "Redux", "React Navigation"],
     platform: "Cross-platform",
     playStoreUrl: "#",
     appStoreUrl: "#",
+    gallery: [
+      "/deenApp/1.png",
+      "/deenApp/2.png",
+      "/deenApp/3.png",
+      "/deenApp/4.png",
+      "/deenApp/5.png",
+      "/deenApp/6.png",
+    ],
   },
   {
     title: "E-Invoice",
@@ -64,7 +72,7 @@ const projects: Project[] = [
     image: "/business-directory/1.png",
     technologies: ["React Native", "Google Auth", "React Navigation", "FlatList"],
     platform: "Cross-platform",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Ashhad-Ahmed/business-directory",
     gallery: [
       "/business-directory/1.png",
       "/business-directory/2.png",

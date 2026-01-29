@@ -64,7 +64,7 @@ const projects: Project[] = [
   {
     title: "Deen App",
     description:
-      "Contributed to UI fixes in a 1Million+ users Islamic app. Debugged and updated code with the latest React Native updates to improve performance and stability.",
+      "I worked on a Deen mobile application with 1M+ users, where I developed the home screen and set up navigation between core sections of the app. I also resolved multiple UI issues, including fixing layout inconsistencies and correcting a problem where Quranic ayat text was being cut off on certain devices. In addition, I contributed to the Qibla direction feature by working on rotation handling and integrating device location support to help users accurately identify the Qibla direction. This role gave me hands-on experience working on a large-scale production app, focusing on real user issues, UI reliability, and overall app stability.",
     image: "/deenApp/1.png",
     technologies: ["React Native", "Firebase", "Redux", "React Navigation"],
     platform: "Cross-platform",
@@ -108,7 +108,7 @@ const projects: Project[] = [
   {
     title: "Stock Management System",
     description:
-      "Developed and maintained an intuitive stock management system using React.js with real-time inventory tracking. Integrated APIs for sales, purchases, and low-stock alert automation.",
+      "I developed a Stock Management web application using React, designed for company-level usage to manage and monitor product inventory efficiently. The system handled stock entry, product availability tracking, and inventory updates through a centralized database. The application supported role-based access control, with separate Admin and User roles. Admin users could manage products, update stock quantities, and add new inventory, while users could search products and view remaining stock levels in real time. To improve efficiency, the system automated inventory handling workflows and incorporated AI-assisted logic to support stock monitoring and decision-making, reducing manual effort in tracking product availability. This project strengthened my understanding of React-based web applications, database-driven systems, role-based authentication, and inventory automation concepts.",
     image: "/projects/stock-management.jpg",
     technologies: ["React.js", "REST APIs", "State Management"],
     platform: "Web",

@@ -43,7 +43,7 @@ const projects: Project[] = [
     title: "MovieFlix",
     description:
       "Developed a Netflix-inspired movie streaming app from scratch using React Native with cross-platform compatibility. Integrated React Reanimated for modern animated UIs and implemented custom hooks for reusable business logic. Features multiple screens including Home, Search, Profile, and Saved Movies. The application integrates TMDB (The Movie Database) API to fetch and display latest and trending movies on the home screen in real time. Implemented API calls using custom React hooks, allowing modular data-fetching logic across different screens. This approach improved code readability, avoided repetition, and strengthened understanding of component-based architecture, custom hooks, and scalable app structure in React Native.",
-    image: "/projects/movieflix.jpg",
+    image: "/movieFlix/1.jpg",
     technologies: [
       "React Native",
       "React Reanimated",
@@ -53,7 +53,13 @@ const projects: Project[] = [
       "State Management",
     ],
     platform: "Cross-platform",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Ashhad-Ahmed/MovieApp",
+    gallery: [
+      "/movieFlix/1.jpg",
+      "/movieFlix/2.png",
+      "/movieFlix/3.jpg",
+      "/movieFlix/4.jpg",
+    ],
   },
   {
     title: "Deen App",
@@ -63,7 +69,6 @@ const projects: Project[] = [
     technologies: ["React Native", "Firebase", "Redux", "React Navigation"],
     platform: "Cross-platform",
     playStoreUrl: "https://play.google.com/store/apps/details?id=com.deen&hl=en&pli=1",
-    appStoreUrl: "#",
     gallery: [
       "/deenApp/1.png",
       "/deenApp/2.png",

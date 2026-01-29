@@ -40,6 +40,22 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: "MovieFlix",
+    description:
+      "Developed a Netflix-inspired movie streaming app from scratch using React Native with cross-platform compatibility. Integrated React Reanimated for modern animated UIs and implemented custom hooks for reusable business logic. Features multiple screens including Home, Search, Profile, and Saved Movies. The application integrates TMDB (The Movie Database) API to fetch and display latest and trending movies on the home screen in real time. Implemented API calls using custom React hooks, allowing modular data-fetching logic across different screens. This approach improved code readability, avoided repetition, and strengthened understanding of component-based architecture, custom hooks, and scalable app structure in React Native.",
+    image: "/projects/movieflix.jpg",
+    technologies: [
+      "React Native",
+      "React Reanimated",
+      "Custom Hooks",
+      "TMDB API",
+      "React Navigation",
+      "State Management",
+    ],
+    platform: "Cross-platform",
+    githubUrl: "#",
+  },
+  {
     title: "Deen App",
     description:
       "Contributed to UI fixes in a 1Million+ users Islamic app. Debugged and updated code with the latest React Native updates to improve performance and stability.",
@@ -109,16 +125,6 @@ const projects: Project[] = [
       "/travelApp/3.png",
       "/travelApp/4.png",
     ],
-  },
-  {
-    title: "YouTube Clone",
-    description:
-      "Built a responsive video streaming app with an intuitive user interface. Added video playback, search, and user interaction features.",
-    image: "/projects/youtube-clone.jpg",
-    technologies: ["React.js", "YouTube API", "Responsive Design"],
-    platform: "Web",
-    isWeb: true,
-    githubUrl: "#",
   },
 ]
 
